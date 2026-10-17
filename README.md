@@ -1,5 +1,7 @@
 # TikTok Video Performance & Engagement Analysis
 
+📓 [View the complete analysis notebook](Google_Data_Analytics_Course_2_TikTok_Project.ipynb)
+
 ## Project Overview
 
 This project analyzes TikTok video data to identify patterns associated with video performance and audience engagement.
