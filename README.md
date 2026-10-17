@@ -55,10 +55,10 @@ Videos in the top 25% of view count were classified as high-performing, using a 
 
 After normalizing engagement by views, high-performing videos still showed stronger engagement than other videos:
 
-- Like rate was approximately **28.1% higher**
-- Share rate was approximately **26.4% higher**
-- Download rate was approximately **28.1% higher**
-- Comment rate was approximately **75% higher**
+- Like rate: **33.04% vs. 25.80%** — approximately **28.1% higher**
+- Share rate: **6.51% vs. 5.15%** — approximately **26.4% higher**
+- Download rate: **0.41% vs. 0.32%** — approximately **28.1% higher**
+- Comment rate: **0.14% vs. 0.08%** — approximately **75% higher**
 
 ### Claim vs. Opinion Videos
 
@@ -71,10 +71,10 @@ Average video views were approximately:
 
 Compared with opinion videos, claim videos had approximately:
 
-- **50.9% higher like rate**
-- **50.8% higher share rate**
-- **51.9% higher download rate**
-- **180% higher comment rate**
+- Like rate: **33.16% vs. 21.98%** — approximately **50.9% higher**
+- Share rate: **6.59% vs. 4.37%** — approximately **50.8% higher**
+- Download rate: **0.41% vs. 0.27%** — approximately **51.9% higher**
+- Comment rate: **0.14% vs. 0.05%** — approximately **180% higher**
 
 ### Video Duration
 
@@ -89,13 +89,15 @@ This suggests that video duration alone does not meaningfully distinguish high-p
 
 ## Statistical Testing
 
+## Statistical Testing
+
 A Welch's independent-samples t-test was used to compare video views between claim and opinion videos.
 
-The test produced a very large t-statistic and an extremely small p-value, providing strong statistical evidence of a difference in average views between the two groups.
+The test produced a **t-statistic of 166.89** with an extremely small p-value (**p < 0.001**), providing strong statistical evidence of a difference in average views between claim and opinion videos.
 
-A one-way ANOVA was also used to examine differences in comment rates across author ban-status groups.
+A one-way ANOVA was also used to examine differences in comment rates across author ban-status groups. The analysis produced an **F-statistic of 93.36** with **p < 0.001**, indicating statistically significant differences in average comment rates among the groups.
 
-These statistical results demonstrate association and group differences; they should **not be interpreted as proof of causation**.
+These statistical results demonstrate associations and group differences; they should **not be interpreted as proof of causation**.
 
 ## Skills Demonstrated
 
@@ -115,9 +117,9 @@ These statistical results demonstrate association and group differences; they sh
 
 ## Repository Files
 
-- `Google_Data_Analytics_Course_2_TikTok_Project.ipynb` — complete analysis notebook
-- `tiktok_dataset.csv` — dataset used for the analysis
-- `README.md` — project documentation
+- [Google_Data_Analytics_Course_2_TikTok_Project.ipynb](Google_Data_Analytics_Course_2_TikTok_Project.ipynb) — complete analysis notebook
+- [tiktok_dataset.csv](tiktok_dataset.csv) — dataset used for the analysis
+- [README.md](README.md) — project documentation
 
 ## Author
 
